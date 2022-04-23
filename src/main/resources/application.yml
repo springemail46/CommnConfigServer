@@ -1,0 +1,12 @@
+server:
+  port: 9898
+
+spring:
+  application:
+    name: CommonConfigServer
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/springemail46/CommonConfigServer.git
